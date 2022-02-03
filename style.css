@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.sub {
+    background-color: #d42203;
+    color: white;
+    border: none;
+    padding: 8px 5px;
+}
+
+.title {
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 1.5px;
+    margin: 15px 0px;
+}
+
+header {
+    background-color: #040133;
+    min-height: 70px;
+    color: white;
+    border-bottom: 8px solid #d42203;
+}
+
+#logo {
+    display: inline-block;
+    margin: 19px 5px;
+}
+
+#logo h1 {
+    font-size: 25px;
+
+}
+
+#brand,
+#active {
+    color: #d42203;
+}
+
+nav {
+    float: right;
+    margin: 19px 5px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    font-weight: 900;
+    font-size: 20px;
+    margin-right: 22px;
+}
+
+#hero {
+    background-image: url(about.jpg);
+    background-repeat: no-repeat;
+    min-height: 400px;
+    background-size: cover;
+    background: position x -266px;
+    
+
+}
+
+#hero h1 {
+    color: white;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    color: white;
+    font-size: 20px;
+}
+
+#news {
+    background-color: #040133;
+    min-height: 80px;
+}
+
+#nl {
+    display: inline-block;
+    color: white;
+    margin: 10px 5px;
+}
+
+#nr {
+    display: inline-block;
+    float: right;
+    margin: 20px 5px;
+
+}
+
+#nr form input {
+    padding: 8px;
+    width: 185px;
+}
+
+#serviceh {
+    margin: 30px 0px;
+}
+#boxes{
+    text-align: center;
+    margin-top: 20px;
+}
+.box{
+    display: inline-block;
+    width: 30%;
+
+}
+.box img{
+    width: 168px;
+    height: auto;
+}
+footer{
+    background-color: #040133;
+    min-height: 70px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
